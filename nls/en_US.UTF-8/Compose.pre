@@ -4594,7 +4594,6 @@ XCOMM French-Dvorak Bépo compositions
 <dead_caron> <nobreakspace>		: "̌"	U030C # COMBINING CARON
 <dead_cedilla> <Cacute>			: "Ḉ"	U1E08 # LATIN CAPITAL LETTER C WITH CEDILLA AND ACUTE
 <dead_cedilla> <cacute>			: "ḉ"	U1E09 # LATIN SMALL LETTER C WITH CEDILLA AND ACUTE
-<dead_cedilla> <cent>			: "₵"	U20B5 # CEDI SIGN
 <dead_cedilla> <U0114>			: "Ḝ"	U1E1C # LATIN CAPITAL LETTER E WITH CEDILLA AND BREVE
 <dead_cedilla> <U0115>			: "ḝ"	U1E1D # LATIN SMALL LETTER E WITH CEDILLA AND BREVE
 <dead_cedilla> <nobreakspace>		: "̧"	U0327 # COMBINING CEDILLA
@@ -4624,10 +4623,12 @@ XCOMM French-Dvorak Bépo compositions
 <dead_currency> <a>			: "؋"	U060B # AFGHANI SIGN
 <dead_currency> <B>			: "₱"	U20B1 # PESO SIGN
 <dead_currency> <b>			: "฿"	Thai_baht # THAI CURRENCY SYMBOL BAHT
-<dead_currency> <Ccedilla>		: "₵"	U20B5 # CEDI SIGN
 <dead_currency> <C>			: "₡"	ColonSign # COLON SIGN
-<dead_currency> <ccedilla>		: "₵"	U20B5 # CEDI SIGN
 <dead_currency> <c>			: "¢"	cent # CENT SIGN
+<dead_currency> <Ccedilla>		: "₵"	U20B5 # CEDI SIGN
+<dead_currency> <ccedilla>		: "₵"	U20B5 # CEDI SIGN
+<dead_currency> <dead_cedilla> <C>	: "₵"	U20B5 # CEDI SIGN
+<dead_currency> <dead_cedilla> <c>	: "₵"	U20B5 # CEDI SIGN
 <dead_currency> <D>			: "₯"	U20AF # DRACHMA SIGN
 <dead_currency> <d>			: "₫"	DongSign # DONG SIGN
 <dead_currency> <E>			: "₠"	EcuSign # EURO-CURRENCY SIGN
@@ -4848,10 +4849,6 @@ XCOMM French-Dvorak Bépo compositions
 <dead_horn> <dead_belowdot> <o>		: "ợ"	ohornbelowdot # LATIN SMALL LETTER O WITH HORN AND DOT BELOW
 <dead_horn> <dead_belowdot> <U>		: "Ự"	Uhornbelowdot # LATIN CAPITAL LETTER U WITH HORN AND DOT BELOW
 <dead_horn> <dead_belowdot> <u>		: "ự"	uhornbelowdot # LATIN SMALL LETTER U WITH HORN AND DOT BELOW
-<dead_cedilla> <dead_currency> <C>	: "₵"	U20B5 # CEDI SIGN
-<dead_currency> <dead_cedilla> <C>	: "₵"	U20B5 # CEDI SIGN
-<dead_cedilla> <dead_currency> <c>	: "₵"	U20B5 # CEDI SIGN
-<dead_currency> <dead_cedilla> <c>	: "₵"	U20B5 # CEDI SIGN
 <dead_circumflex> <dead_grave> <A>	: "Ầ"	Acircumflexgrave # LATIN CAPITAL LETTER A WITH CIRCUMFLEX AND GRAVE
 <dead_circumflex> <dead_grave> <a>	: "ầ"	acircumflexgrave # LATIN SMALL LETTER A WITH CIRCUMFLEX AND GRAVE
 <dead_circumflex> <dead_grave> <E>	: "Ề"	Ecircumflexgrave # LATIN CAPITAL LETTER E WITH CIRCUMFLEX AND GRAVE
