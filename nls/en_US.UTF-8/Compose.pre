@@ -65,7 +65,6 @@ XCOMM ASCII characters that may be difficult to access on some keyboards.
 
 <Multi_key> <slash> <slash>		: "\\"	backslash # REVERSE SOLIDUS
 <Multi_key> <slash> <less>		: "\\"	backslash # REVERSE SOLIDUS
-<Multi_key> <less> <slash>		: "\\"	backslash # REVERSE SOLIDUS
 
 <Multi_key> <parenleft> <minus>		: "{"	braceleft # LEFT CURLY BRACKET
 <Multi_key> <minus> <parenleft>		: "{"	braceleft # LEFT CURLY BRACKET
@@ -4063,53 +4062,52 @@ XCOMM Arrows
 <Multi_key> <equal> <v>			: "⇓"	U21D3 # DOWNWARDS DOUBLE ARROW
 
 XCOMM Mathematical Operators
-<Multi_key> <U2203> <U0338>		: "∄"	U2204 # THERE DOES NOT EXIST
+<Multi_key> <U2203> <slash>		: "∄"	U2204 # THERE DOES NOT EXIST
 <Multi_key> <braceleft> <braceright>	: "∅"	U2205 # EMPTY SET
-<Multi_key> <U2208> <U0338>		: "∉"	U2209 # NOT AN ELEMENT OF
-<Multi_key> <U220B> <U0338>		: "∌"	U220C # DOES NOT CONTAIN AS MEMBER
+<Multi_key> <U2208> <slash>		: "∉"	U2209 # NOT AN ELEMENT OF
+<Multi_key> <U220B> <slash>		: "∌"	U220C # DOES NOT CONTAIN AS MEMBER
 <Multi_key> <minus> <underscore>	: "−"	U2212 # MINUS SIGN
-<Multi_key> <U2223> <U0338>		: "∤"	U2224 # DOES NOT DIVIDE
-<Multi_key> <U2225> <U0338>		: "∦"	U2226 # NOT PARALLEL TO
-<Multi_key> <U223C> <U0338>		: "≁"	U2241 # NOT TILDE
-<Multi_key> <U2243> <U0338>		: "≄"	U2244 # NOT ASYMPTOTICALLY EQUAL TO
-<Multi_key> <approximate> <U0338>	: "≇"	U2247 # NEITHER APPROXIMATELY NOR ACTUALLY EQUAL TO
-<Multi_key> <U2248> <U0338>		: "≉"	U2249 # NOT ALMOST EQUAL TO
+<Multi_key> <U2223> <slash>		: "∤"	U2224 # DOES NOT DIVIDE
+<Multi_key> <U2225> <slash>		: "∦"	U2226 # NOT PARALLEL TO
+<Multi_key> <U223C> <slash>		: "≁"	U2241 # NOT TILDE
+<Multi_key> <U2243> <slash>		: "≄"	U2244 # NOT ASYMPTOTICALLY EQUAL TO
+<Multi_key> <approximate> <slash>	: "≇"	U2247 # NEITHER APPROXIMATELY NOR ACTUALLY EQUAL TO
+<Multi_key> <U2248> <slash>		: "≉"	U2249 # NOT ALMOST EQUAL TO
 <Multi_key> <slash> <equal>		: "≠"	U2260 # NOT EQUAL TO
 <Multi_key> <equal> <slash>		: "≠"	U2260 # NOT EQUAL TO
-<Multi_key> <equal> <U0338>		: "≠"	U2260 # NOT EQUAL TO
-<Multi_key> <KP_Equal> <U0338>		: "≠"	U2260 # NOT EQUAL TO
-<Multi_key> <identical> <U0338>		: "≢"	U2262 # NOT IDENTICAL TO
+<Multi_key> <KP_Equal> <slash>		: "≠"	U2260 # NOT EQUAL TO
+<Multi_key> <identical> <slash>		: "≢"	U2262 # NOT IDENTICAL TO
 <Multi_key> <less> <equal>		: "≤"	U2264 # LESS-THAN OR EQUAL TO
 <Multi_key> <greater> <equal>		: "≥"	U2265 # GREATER-THAN OR EQUAL TO
-<Multi_key> <U224D> <U0338>		: "≭"	U226D # NOT EQUIVALENT TO
-<Multi_key> <less> <U0338>		: "≮"	U226E # NOT LESS-THAN
-<Multi_key> <greater> <U0338>		: "≯"	U226F # NOT GREATER-THAN
-<Multi_key> <lessthanequal> <U0338>	: "≰"	U2270 # NEITHER LESS-THAN NOR EQUAL TO
-<Multi_key> <greaterthanequal> <U0338>	: "≱"	U2271 # NEITHER GREATER-THAN NOR EQUAL TO
-<Multi_key> <U2272> <U0338>		: "≴"	U2274 # NEITHER LESS-THAN NOR EQUIVALENT TO
-<Multi_key> <U2273> <U0338>		: "≵"	U2275 # NEITHER GREATER-THAN NOR EQUIVALENT TO
-<Multi_key> <U2276> <U0338>		: "≸"	U2278 # NEITHER LESS-THAN NOR GREATER-THAN
-<Multi_key> <U2277> <U0338>		: "≹"	U2279 # NEITHER GREATER-THAN NOR LESS-THAN
-<Multi_key> <U227A> <U0338>		: "⊀"	U2280 # DOES NOT PRECEDE
-<Multi_key> <U227B> <U0338>		: "⊁"	U2281 # DOES NOT SUCCEED
-<Multi_key> <includedin> <U0338>	: "⊄"	U2284 # NOT A SUBSET OF
-<Multi_key> <leftshoe> <U0338>		: "⊄"	U2284 # NOT A SUBSET OF
-<Multi_key> <includes> <U0338>		: "⊅"	U2285 # NOT A SUPERSET OF
-<Multi_key> <rightshoe> <U0338>		: "⊅"	U2285 # NOT A SUPERSET OF
-<Multi_key> <U2286> <U0338>		: "⊈"	U2288 # NEITHER A SUBSET OF NOR EQUAL TO
-<Multi_key> <U2287> <U0338>		: "⊉"	U2289 # NEITHER A SUPERSET OF NOR EQUAL TO
-<Multi_key> <righttack> <U0338>		: "⊬"	U22AC # DOES NOT PROVE
-<Multi_key> <U22A8> <U0338>		: "⊭"	U22AD # NOT TRUE
-<Multi_key> <U22A9> <U0338>		: "⊮"	U22AE # DOES NOT FORCE
-<Multi_key> <U22AB> <U0338>		: "⊯"	U22AF # NEGATED DOUBLE VERTICAL BAR DOUBLE RIGHT TURNSTILE
-<Multi_key> <U227C> <U0338>		: "⋠"	U22E0 # DOES NOT PRECEDE OR EQUAL
-<Multi_key> <U227D> <U0338>		: "⋡"	U22E1 # DOES NOT SUCCEED OR EQUAL
-<Multi_key> <U2291> <U0338>		: "⋢"	U22E2 # NOT SQUARE IMAGE OF OR EQUAL TO
-<Multi_key> <U2292> <U0338>		: "⋣"	U22E3 # NOT SQUARE ORIGINAL OF OR EQUAL TO
-<Multi_key> <U22B2> <U0338>		: "⋪"	U22EA # NOT NORMAL SUBGROUP OF
-<Multi_key> <U22B3> <U0338>		: "⋫"	U22EB # DOES NOT CONTAIN AS NORMAL SUBGROUP
-<Multi_key> <U22B4> <U0338>		: "⋬"	U22EC # NOT NORMAL SUBGROUP OF OR EQUAL TO
-<Multi_key> <U22B5> <U0338>		: "⋭"	U22ED # DOES NOT CONTAIN AS NORMAL SUBGROUP OR EQUAL
+<Multi_key> <U224D> <slash>		: "≭"	U226D # NOT EQUIVALENT TO
+<Multi_key> <less> <slash>		: "≮"	U226E # NOT LESS-THAN
+<Multi_key> <greater> <slash>		: "≯"	U226F # NOT GREATER-THAN
+<Multi_key> <lessthanequal> <slash>	: "≰"	U2270 # NEITHER LESS-THAN NOR EQUAL TO
+<Multi_key> <greaterthanequal> <slash>	: "≱"	U2271 # NEITHER GREATER-THAN NOR EQUAL TO
+<Multi_key> <U2272> <slash>		: "≴"	U2274 # NEITHER LESS-THAN NOR EQUIVALENT TO
+<Multi_key> <U2273> <slash>		: "≵"	U2275 # NEITHER GREATER-THAN NOR EQUIVALENT TO
+<Multi_key> <U2276> <slash>		: "≸"	U2278 # NEITHER LESS-THAN NOR GREATER-THAN
+<Multi_key> <U2277> <slash>		: "≹"	U2279 # NEITHER GREATER-THAN NOR LESS-THAN
+<Multi_key> <U227A> <slash>		: "⊀"	U2280 # DOES NOT PRECEDE
+<Multi_key> <U227B> <slash>		: "⊁"	U2281 # DOES NOT SUCCEED
+<Multi_key> <includedin> <slash>	: "⊄"	U2284 # NOT A SUBSET OF
+<Multi_key> <leftshoe> <slash>		: "⊄"	U2284 # NOT A SUBSET OF
+<Multi_key> <includes> <slash>		: "⊅"	U2285 # NOT A SUPERSET OF
+<Multi_key> <rightshoe> <slash>		: "⊅"	U2285 # NOT A SUPERSET OF
+<Multi_key> <U2286> <slash>		: "⊈"	U2288 # NEITHER A SUBSET OF NOR EQUAL TO
+<Multi_key> <U2287> <slash>		: "⊉"	U2289 # NEITHER A SUPERSET OF NOR EQUAL TO
+<Multi_key> <righttack> <slash>		: "⊬"	U22AC # DOES NOT PROVE
+<Multi_key> <U22A8> <slash>		: "⊭"	U22AD # NOT TRUE
+<Multi_key> <U22A9> <slash>		: "⊮"	U22AE # DOES NOT FORCE
+<Multi_key> <U22AB> <slash>		: "⊯"	U22AF # NEGATED DOUBLE VERTICAL BAR DOUBLE RIGHT TURNSTILE
+<Multi_key> <U227C> <slash>		: "⋠"	U22E0 # DOES NOT PRECEDE OR EQUAL
+<Multi_key> <U227D> <slash>		: "⋡"	U22E1 # DOES NOT SUCCEED OR EQUAL
+<Multi_key> <U2291> <slash>		: "⋢"	U22E2 # NOT SQUARE IMAGE OF OR EQUAL TO
+<Multi_key> <U2292> <slash>		: "⋣"	U22E3 # NOT SQUARE ORIGINAL OF OR EQUAL TO
+<Multi_key> <U22B2> <slash>		: "⋪"	U22EA # NOT NORMAL SUBGROUP OF
+<Multi_key> <U22B3> <slash>		: "⋫"	U22EB # DOES NOT CONTAIN AS NORMAL SUBGROUP
+<Multi_key> <U22B4> <slash>		: "⋬"	U22EC # NOT NORMAL SUBGROUP OF OR EQUAL TO
+<Multi_key> <U22B5> <slash>		: "⋭"	U22ED # DOES NOT CONTAIN AS NORMAL SUBGROUP OR EQUAL
 
 <Multi_key> <d> <i>			: "⌀"	U2300 # DIAMETER SIGN
 
@@ -4216,7 +4214,7 @@ XCOMM Supplemental Mathematical Operators
 <dead_belowdot> <equal>				: "⩦"	U2A66 # EQUALS SIGN WITH DOT BELOW
 <dead_diaeresis> <dead_belowdiaeresis> <equal>	: "⩷"	U2A77 # EQUALS SIGN WITH TWO DOTS ABOVE AND TWO DOTS BELOW
 <dead_belowdiaeresis> <dead_diaeresis> <equal>	: "⩷"	U2A77 # EQUALS SIGN WITH TWO DOTS ABOVE AND TWO DOTS BELOW
-<Multi_key> <U2ADD> <U0338>			: "⫝̸"	U2ADC # FORKING
+<Multi_key> <U2ADD> <slash>			: "⫝̸"	U2ADC # FORKING
 <dead_belowring> <bar>				: "⫰"	U2AF0 # VERTICAL LINE WITH CIRCLE BELOW
 
 XCOMM Hiragana
