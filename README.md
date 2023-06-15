@@ -31,6 +31,10 @@ For patch submission instructions, see:
 
   https://www.x.org/wiki/Development/Documentation/SubmittingPatches
 
+## Release 1.8.6
+
+ * Add bounds checks in InitExt.c (CVE-2023-3138)
+
 ## Release 1.8.5
 
  * autoconf & libtool updates (!187, !188)
