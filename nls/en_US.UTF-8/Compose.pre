@@ -4059,9 +4059,7 @@ XCOMM Mathematical Operators
 <Multi_key> <U227A> <slash>		: "⊀"	U2280 # DOES NOT PRECEDE
 <Multi_key> <U227B> <slash>		: "⊁"	U2281 # DOES NOT SUCCEED
 <Multi_key> <includedin> <slash>	: "⊄"	U2284 # NOT A SUBSET OF
-<Multi_key> <leftshoe> <slash>		: "⊄"	U2284 # NOT A SUBSET OF
 <Multi_key> <includes> <slash>		: "⊅"	U2285 # NOT A SUPERSET OF
-<Multi_key> <rightshoe> <slash>		: "⊅"	U2285 # NOT A SUPERSET OF
 <Multi_key> <U2286> <slash>		: "⊈"	U2288 # NEITHER A SUBSET OF NOR EQUAL TO
 <Multi_key> <U2287> <slash>		: "⊉"	U2289 # NEITHER A SUPERSET OF NOR EQUAL TO
 <Multi_key> <righttack> <slash>		: "⊬"	U22AC # DOES NOT PROVE
@@ -5017,6 +5015,8 @@ XCOMM Characters from "Mathematical Operators"
 <Multi_key> <v> <slash>			: "√"	U221a # v / SQUARE ROOT
 <Multi_key> <slash> <v>			: "√"	U221a # / v SQUARE ROOT
 <Multi_key> <8> <8>			: "∞"	U221e # 8 8 INFINITY
+<Multi_key> <colon> <period>		: "∴"	U2234 # : . THEREFORE
+<Multi_key> <period> <colon>		: "∵"	U2235 # . : BECAUSE
 <Multi_key> <asciitilde> <asciitilde>	: "≈"	U2248 # ~ ~ ALMOST EQUAL TO
 <Multi_key> <equal> <underscore>	: "≡"	U2261 # = _ IDENTICAL TO
 <Multi_key> <underscore> <U2260>	: "≢"	U2262 # _ ≠ NOT IDENTICAL TO
@@ -5031,14 +5031,12 @@ XCOMM Characters from "Mathematical Operators"
 <Multi_key> <U2283> <underscore>	: "⊇"	U2287 # ⊃ _ SUPERSET OF OR EQUAL TO
 <Multi_key> <U25cb> <minus>		: "⊖"	U2296 # ○ - CIRCLED MINUS
 <Multi_key> <minus> <U25cb>		: "⊖"	U2296 # - ○ CIRCLED MINUS
-<Multi_key> <U25cb> <period>		: "⊙"	U2299 # ○ - CIRCLED DOT
-<Multi_key> <period> <U25cb>		: "⊙"	U2299 # - ○ CIRCLED DOT
+<Multi_key> <U25cb> <period>		: "⊙"	U2299 # ○ . CIRCLED DOT OPERATOR
+<Multi_key> <period> <U25cb>		: "⊙"	U2299 # . ○ CIRCLED DOT OPERATOR
 <Multi_key> <less> <greater>		: "⋄"	U22c4 # < > DIAMOND OPERATOR
 <Multi_key> <greater> <less>		: "⋄"	U22c4 # > < DIAMOND OPERATOR
 <Multi_key> <U2227> <U2228>		: "⋄"	U22c4 # ∧ ∨ DIAMOND OPERATOR
 <Multi_key> <U2228> <U2227>		: "⋄"	U22c4 # ∨ ∧ DIAMOND OPERATOR
-<Multi_key> <colon> <period>		: "∴"	therefore # : . THEREFORE
-<Multi_key> <period> <colon>		: "∵"	because # . : BECAUSE
 
 XCOMM Characters from "Miscellaneous Technical"
 <Multi_key> <U22a5> <U22a4>		: "⌶"	U2336 # ⊥ ⊤ APL FUNCTIONAL SYMBOL I-BEAM
