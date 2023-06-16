@@ -5023,9 +5023,9 @@ XCOMM Cyrillic (NFDs -- Normalized Form Canonical Decomposition)
 <dead_acute> <Cyrillic_yu>		: "ю́" # CYRILLIC SMALL LETTER YU WITH COMBINING ACUTE ACCENT
 <Multi_key> <acute> <Cyrillic_yu>	: "ю́" # CYRILLIC SMALL LETTER YU WITH COMBINING ACUTE ACCENT
 <Multi_key> <apostrophe> <Cyrillic_yu>	: "ю́" # CYRILLIC SMALL LETTER YU WITH COMBINING ACUTE ACCENT
-<dead_acute> <Cyrillic_YU>		: "Ю́́" # CYRILLIC CAPITAL LETTER YU WITH COMBINING ACUTE ACCENT
-<Multi_key> <acute> <Cyrillic_YU>	: "Ю́́" # CYRILLIC CAPITAL LETTER YU WITH COMBINING ACUTE ACCENT
-<Multi_key> <apostrophe> <Cyrillic_YU>	: "Ю́́" # CYRILLIC CAPITAL LETTER YU WITH COMBINING ACUTE ACCENT
+<dead_acute> <Cyrillic_YU>		: "Ю́" # CYRILLIC CAPITAL LETTER YU WITH COMBINING ACUTE ACCENT
+<Multi_key> <acute> <Cyrillic_YU>	: "Ю́" # CYRILLIC CAPITAL LETTER YU WITH COMBINING ACUTE ACCENT
+<Multi_key> <apostrophe> <Cyrillic_YU>	: "Ю́" # CYRILLIC CAPITAL LETTER YU WITH COMBINING ACUTE ACCENT
 <dead_acute> <Cyrillic_ya>		: "я́" # CYRILLIC SMALL LETTER YA WITH COMBINING ACUTE ACCENT
 <Multi_key> <acute> <Cyrillic_ya>	: "я́" # CYRILLIC SMALL LETTER YA WITH COMBINING ACUTE ACCENT
 <Multi_key> <apostrophe> <Cyrillic_ya>	: "я́" # CYRILLIC SMALL LETTER YA WITH COMBINING ACUTE ACCENT
