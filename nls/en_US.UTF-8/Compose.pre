@@ -163,6 +163,8 @@ XCOMM Currencies
 <Multi_key> <equal> <Y>			: "¥"	yen # YEN SIGN
 <Multi_key> <y> <equal>			: "¥"	yen # YEN SIGN
 <Multi_key> <equal> <y>			: "¥"	yen # YEN SIGN
+<Multi_key> <B> <bar>			: "฿"	U0e3f # THAI CURRENCY SYMBOL BAHT
+<Multi_key> <bar> <B>			: "฿"	U0e3f # THAI CURRENCY SYMBOL BAHT
 <Multi_key> <C> <E>			: "₠"	U20a0 # EURO-CURRENCY SIGN
 <Multi_key> <C> <slash>			: "₡"	U20a1 # COLON SIGN
 <Multi_key> <slash> <C>			: "₡"	U20a1 # COLON SIGN
