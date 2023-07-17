@@ -149,6 +149,20 @@ XCOMM Quotation marks
 <Multi_key> <quotedbl> <comma>		: "„"	U201e # DOUBLE LOW-9 QUOTATION MARK
 
 XCOMM Currencies
+<Multi_key> <S> <bar>			: "$"	dollar # DOLLAR SIGN
+<Multi_key> <bar> <S>			: "$"	dollar # DOLLAR SIGN
+<Multi_key> <c> <bar>			: "¢"	cent # CENT SIGN
+<Multi_key> <bar> <c>			: "¢"	cent # CENT SIGN
+<Multi_key> <c> <slash>			: "¢"	cent # CENT SIGN
+<Multi_key> <slash> <c>			: "¢"	cent # CENT SIGN
+<Multi_key> <L> <minus>			: "£"	sterling # POUND SIGN
+<Multi_key> <minus> <L>			: "£"	sterling # POUND SIGN
+<Multi_key> <l> <minus>			: "£"	sterling # POUND SIGN
+<Multi_key> <minus> <l>			: "£"	sterling # POUND SIGN
+<Multi_key> <Y> <equal>			: "¥"	yen # YEN SIGN
+<Multi_key> <equal> <Y>			: "¥"	yen # YEN SIGN
+<Multi_key> <y> <equal>			: "¥"	yen # YEN SIGN
+<Multi_key> <equal> <y>			: "¥"	yen # YEN SIGN
 <Multi_key> <C> <E>			: "₠"	U20a0 # EURO-CURRENCY SIGN
 <Multi_key> <C> <slash>			: "₡"	U20a1 # COLON SIGN
 <Multi_key> <slash> <C>			: "₡"	U20a1 # COLON SIGN
@@ -179,14 +193,6 @@ XCOMM "₪" U20aa NEW SHEQEL SIGN
 <Multi_key> <equal> <Cyrillic_ES>	: "€"	EuroSign # EURO SIGN
 <Multi_key> <Cyrillic_IE> <equal>	: "€"	EuroSign # EURO SIGN
 <Multi_key> <equal> <Cyrillic_IE>	: "€"	EuroSign # EURO SIGN
-<Multi_key> <P> <equal>			: "₽"	U20bd # ROUBLE SIGN
-<Multi_key> <equal> <P>			: "₽"	U20bd # ROUBLE SIGN
-<Multi_key> <p> <equal>			: "₽"	U20bd # ROUBLE SIGN
-<Multi_key> <equal> <p>			: "₽"	U20bd # ROUBLE SIGN
-<Multi_key> <Cyrillic_ZE> <equal>	: "₽"	U20bd # ROUBLE SIGN
-<Multi_key> <equal> <Cyrillic_ZE>	: "₽"	U20bd # ROUBLE SIGN
-<Multi_key> <Cyrillic_ze> <equal>	: "₽"	U20bd # ROUBLE SIGN
-<Multi_key> <equal> <Cyrillic_ze>	: "₽"	U20bd # ROUBLE SIGN
 <Multi_key> <K> <minus>			: "₭"	U20ad # KIP SIGN
 <Multi_key> <minus> <K>			: "₭"	U20ad # KIP SIGN
 <Multi_key> <T> <equal>			: "₮"	U20ae # TUGRIK SIGN
@@ -201,21 +207,14 @@ XCOMM "₴" U20b4 HRYVNIA SIGN
 <Multi_key> <equal> <R>			: "₹"	U20b9 # INDIAN RUPEE SIGN
 <Multi_key> <r> <equal>			: "₹"	U20b9 # INDIAN RUPEE SIGN
 <Multi_key> <equal> <r>			: "₹"	U20b9 # INDIAN RUPEE SIGN
-
-<Multi_key> <S> <bar>			: "$"	dollar # DOLLAR SIGN
-<Multi_key> <bar> <S>			: "$"	dollar # DOLLAR SIGN
-<Multi_key> <c> <bar>			: "¢"	cent # CENT SIGN
-<Multi_key> <bar> <c>			: "¢"	cent # CENT SIGN
-<Multi_key> <c> <slash>			: "¢"	cent # CENT SIGN
-<Multi_key> <slash> <c>			: "¢"	cent # CENT SIGN
-<Multi_key> <L> <minus>			: "£"	sterling # POUND SIGN
-<Multi_key> <minus> <L>			: "£"	sterling # POUND SIGN
-<Multi_key> <l> <minus>			: "£"	sterling # POUND SIGN
-<Multi_key> <minus> <l>			: "£"	sterling # POUND SIGN
-<Multi_key> <Y> <equal>			: "¥"	yen # YEN SIGN
-<Multi_key> <equal> <Y>			: "¥"	yen # YEN SIGN
-<Multi_key> <y> <equal>			: "¥"	yen # YEN SIGN
-<Multi_key> <equal> <y>			: "¥"	yen # YEN SIGN
+<Multi_key> <P> <equal>			: "₽"	U20bd # ROUBLE SIGN
+<Multi_key> <equal> <P>			: "₽"	U20bd # ROUBLE SIGN
+<Multi_key> <p> <equal>			: "₽"	U20bd # ROUBLE SIGN
+<Multi_key> <equal> <p>			: "₽"	U20bd # ROUBLE SIGN
+<Multi_key> <Cyrillic_ZE> <equal>	: "₽"	U20bd # ROUBLE SIGN
+<Multi_key> <equal> <Cyrillic_ZE>	: "₽"	U20bd # ROUBLE SIGN
+<Multi_key> <Cyrillic_ze> <equal>	: "₽"	U20bd # ROUBLE SIGN
+<Multi_key> <equal> <Cyrillic_ze>	: "₽"	U20bd # ROUBLE SIGN
 
 XCOMM Dashes
 <Multi_key> <minus> <minus> <period>	: "–"	U2013 # EN DASH
