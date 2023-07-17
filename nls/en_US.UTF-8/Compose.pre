@@ -3384,8 +3384,6 @@ XCOMM Greek Extended
 <Multi_key> <Greek_iota> <grave> <parenleft> <Greek_alpha>	: "ᾃ"	U1F83 # GREEK SMALL LETTER ALPHA WITH DASIA AND VARIA AND YPOGEGRAMMENI
 <dead_iota> <dead_acute> <dead_psili> <Greek_alpha>	: "ᾄ"	U1F84 # GREEK SMALL LETTER ALPHA WITH PSILI AND OXIA AND YPOGEGRAMMENI
 <dead_iota> <dead_acute> <Multi_key> <parenright> <Greek_alpha>	: "ᾄ"	U1F84 # GREEK SMALL LETTER ALPHA WITH PSILI AND OXIA AND YPOGEGRAMMENI
-<dead_iota> <Multi_key> <acute> <dead_psili> <Greek_alpha>	: "ᾄ"	U1F84 # GREEK SMALL LETTER ALPHA WITH PSILI AND OXIA AND YPOGEGRAMMENI
-<dead_iota> <Multi_key> <acute> <parenright> <Greek_alpha>	: "ᾄ"	U1F84 # GREEK SMALL LETTER ALPHA WITH PSILI AND OXIA AND YPOGEGRAMMENI
 <dead_iota> <Multi_key> <apostrophe> <dead_psili> <Greek_alpha>	: "ᾄ"	U1F84 # GREEK SMALL LETTER ALPHA WITH PSILI AND OXIA AND YPOGEGRAMMENI
 <dead_iota> <Multi_key> <apostrophe> <parenright> <Greek_alpha>	: "ᾄ"	U1F84 # GREEK SMALL LETTER ALPHA WITH PSILI AND OXIA AND YPOGEGRAMMENI
 <Multi_key> <Greek_iota> <dead_acute> <dead_psili> <Greek_alpha>	: "ᾄ"	U1F84 # GREEK SMALL LETTER ALPHA WITH PSILI AND OXIA AND YPOGEGRAMMENI
@@ -3396,8 +3394,6 @@ XCOMM Greek Extended
 <Multi_key> <Greek_iota> <apostrophe> <parenright> <Greek_alpha>	: "ᾄ"	U1F84 # GREEK SMALL LETTER ALPHA WITH PSILI AND OXIA AND YPOGEGRAMMENI
 <dead_iota> <dead_acute> <dead_dasia> <Greek_alpha>	: "ᾅ"	U1F85 # GREEK SMALL LETTER ALPHA WITH DASIA AND OXIA AND YPOGEGRAMMENI
 <dead_iota> <dead_acute> <Multi_key> <parenleft> <Greek_alpha>	: "ᾅ"	U1F85 # GREEK SMALL LETTER ALPHA WITH DASIA AND OXIA AND YPOGEGRAMMENI
-<dead_iota> <Multi_key> <acute> <dead_dasia> <Greek_alpha>	: "ᾅ"	U1F85 # GREEK SMALL LETTER ALPHA WITH DASIA AND OXIA AND YPOGEGRAMMENI
-<dead_iota> <Multi_key> <acute> <parenleft> <Greek_alpha>	: "ᾅ"	U1F85 # GREEK SMALL LETTER ALPHA WITH DASIA AND OXIA AND YPOGEGRAMMENI
 <dead_iota> <Multi_key> <apostrophe> <dead_dasia> <Greek_alpha>	: "ᾅ"	U1F85 # GREEK SMALL LETTER ALPHA WITH DASIA AND OXIA AND YPOGEGRAMMENI
 <dead_iota> <Multi_key> <apostrophe> <parenleft> <Greek_alpha>	: "ᾅ"	U1F85 # GREEK SMALL LETTER ALPHA WITH DASIA AND OXIA AND YPOGEGRAMMENI
 <Multi_key> <Greek_iota> <dead_acute> <dead_dasia> <Greek_alpha>	: "ᾅ"	U1F85 # GREEK SMALL LETTER ALPHA WITH DASIA AND OXIA AND YPOGEGRAMMENI
@@ -3448,8 +3444,6 @@ XCOMM Greek Extended
 <Multi_key> <Greek_iota> <grave> <parenleft> <Greek_ALPHA>	: "ᾋ"	U1F8B # GREEK CAPITAL LETTER ALPHA WITH DASIA AND VARIA AND PROSGEGRAMMENI
 <dead_iota> <dead_acute> <dead_psili> <Greek_ALPHA>	: "ᾌ"	U1F8C # GREEK CAPITAL LETTER ALPHA WITH PSILI AND OXIA AND PROSGEGRAMMENI
 <dead_iota> <dead_acute> <Multi_key> <parenright> <Greek_ALPHA>	: "ᾌ"	U1F8C # GREEK CAPITAL LETTER ALPHA WITH PSILI AND OXIA AND PROSGEGRAMMENI
-<dead_iota> <Multi_key> <acute> <dead_psili> <Greek_ALPHA>	: "ᾌ"	U1F8C # GREEK CAPITAL LETTER ALPHA WITH PSILI AND OXIA AND PROSGEGRAMMENI
-<dead_iota> <Multi_key> <acute> <parenright> <Greek_ALPHA>	: "ᾌ"	U1F8C # GREEK CAPITAL LETTER ALPHA WITH PSILI AND OXIA AND PROSGEGRAMMENI
 <dead_iota> <Multi_key> <apostrophe> <dead_psili> <Greek_ALPHA>	: "ᾌ"	U1F8C # GREEK CAPITAL LETTER ALPHA WITH PSILI AND OXIA AND PROSGEGRAMMENI
 <dead_iota> <Multi_key> <apostrophe> <parenright> <Greek_ALPHA>	: "ᾌ"	U1F8C # GREEK CAPITAL LETTER ALPHA WITH PSILI AND OXIA AND PROSGEGRAMMENI
 <Multi_key> <Greek_iota> <dead_acute> <dead_psili> <Greek_ALPHA>	: "ᾌ"	U1F8C # GREEK CAPITAL LETTER ALPHA WITH PSILI AND OXIA AND PROSGEGRAMMENI
@@ -3460,8 +3454,6 @@ XCOMM Greek Extended
 <Multi_key> <Greek_iota> <apostrophe> <parenright> <Greek_ALPHA>	: "ᾌ"	U1F8C # GREEK CAPITAL LETTER ALPHA WITH PSILI AND OXIA AND PROSGEGRAMMENI
 <dead_iota> <dead_acute> <dead_dasia> <Greek_ALPHA>	: "ᾍ"	U1F8D # GREEK CAPITAL LETTER ALPHA WITH DASIA AND OXIA AND PROSGEGRAMMENI
 <dead_iota> <dead_acute> <Multi_key> <parenleft> <Greek_ALPHA>	: "ᾍ"	U1F8D # GREEK CAPITAL LETTER ALPHA WITH DASIA AND OXIA AND PROSGEGRAMMENI
-<dead_iota> <Multi_key> <acute> <dead_dasia> <Greek_ALPHA>	: "ᾍ"	U1F8D # GREEK CAPITAL LETTER ALPHA WITH DASIA AND OXIA AND PROSGEGRAMMENI
-<dead_iota> <Multi_key> <acute> <parenleft> <Greek_ALPHA>	: "ᾍ"	U1F8D # GREEK CAPITAL LETTER ALPHA WITH DASIA AND OXIA AND PROSGEGRAMMENI
 <dead_iota> <Multi_key> <apostrophe> <dead_dasia> <Greek_ALPHA>	: "ᾍ"	U1F8D # GREEK CAPITAL LETTER ALPHA WITH DASIA AND OXIA AND PROSGEGRAMMENI
 <dead_iota> <Multi_key> <apostrophe> <parenleft> <Greek_ALPHA>	: "ᾍ"	U1F8D # GREEK CAPITAL LETTER ALPHA WITH DASIA AND OXIA AND PROSGEGRAMMENI
 <Multi_key> <Greek_iota> <dead_acute> <dead_dasia> <Greek_ALPHA>	: "ᾍ"	U1F8D # GREEK CAPITAL LETTER ALPHA WITH DASIA AND OXIA AND PROSGEGRAMMENI
@@ -3512,8 +3504,6 @@ XCOMM Greek Extended
 <Multi_key> <Greek_iota> <grave> <parenleft> <Greek_eta>	: "ᾓ"	U1F93 # GREEK SMALL LETTER ETA WITH DASIA AND VARIA AND YPOGEGRAMMENI
 <dead_iota> <dead_acute> <dead_psili> <Greek_eta>	: "ᾔ"	U1F94 # GREEK SMALL LETTER ETA WITH PSILI AND OXIA AND YPOGEGRAMMENI
 <dead_iota> <dead_acute> <Multi_key> <parenright> <Greek_eta>	: "ᾔ"	U1F94 # GREEK SMALL LETTER ETA WITH PSILI AND OXIA AND YPOGEGRAMMENI
-<dead_iota> <Multi_key> <acute> <dead_psili> <Greek_eta>	: "ᾔ"	U1F94 # GREEK SMALL LETTER ETA WITH PSILI AND OXIA AND YPOGEGRAMMENI
-<dead_iota> <Multi_key> <acute> <parenright> <Greek_eta>	: "ᾔ"	U1F94 # GREEK SMALL LETTER ETA WITH PSILI AND OXIA AND YPOGEGRAMMENI
 <dead_iota> <Multi_key> <apostrophe> <dead_psili> <Greek_eta>	: "ᾔ"	U1F94 # GREEK SMALL LETTER ETA WITH PSILI AND OXIA AND YPOGEGRAMMENI
 <dead_iota> <Multi_key> <apostrophe> <parenright> <Greek_eta>	: "ᾔ"	U1F94 # GREEK SMALL LETTER ETA WITH PSILI AND OXIA AND YPOGEGRAMMENI
 <Multi_key> <Greek_iota> <dead_acute> <dead_psili> <Greek_eta>	: "ᾔ"	U1F94 # GREEK SMALL LETTER ETA WITH PSILI AND OXIA AND YPOGEGRAMMENI
@@ -3524,8 +3514,6 @@ XCOMM Greek Extended
 <Multi_key> <Greek_iota> <apostrophe> <parenright> <Greek_eta>	: "ᾔ"	U1F94 # GREEK SMALL LETTER ETA WITH PSILI AND OXIA AND YPOGEGRAMMENI
 <dead_iota> <dead_acute> <dead_dasia> <Greek_eta>	: "ᾕ"	U1F95 # GREEK SMALL LETTER ETA WITH DASIA AND OXIA AND YPOGEGRAMMENI
 <dead_iota> <dead_acute> <Multi_key> <parenleft> <Greek_eta>	: "ᾕ"	U1F95 # GREEK SMALL LETTER ETA WITH DASIA AND OXIA AND YPOGEGRAMMENI
-<dead_iota> <Multi_key> <acute> <dead_dasia> <Greek_eta>	: "ᾕ"	U1F95 # GREEK SMALL LETTER ETA WITH DASIA AND OXIA AND YPOGEGRAMMENI
-<dead_iota> <Multi_key> <acute> <parenleft> <Greek_eta>	: "ᾕ"	U1F95 # GREEK SMALL LETTER ETA WITH DASIA AND OXIA AND YPOGEGRAMMENI
 <dead_iota> <Multi_key> <apostrophe> <dead_dasia> <Greek_eta>	: "ᾕ"	U1F95 # GREEK SMALL LETTER ETA WITH DASIA AND OXIA AND YPOGEGRAMMENI
 <dead_iota> <Multi_key> <apostrophe> <parenleft> <Greek_eta>	: "ᾕ"	U1F95 # GREEK SMALL LETTER ETA WITH DASIA AND OXIA AND YPOGEGRAMMENI
 <Multi_key> <Greek_iota> <dead_acute> <dead_dasia> <Greek_eta>	: "ᾕ"	U1F95 # GREEK SMALL LETTER ETA WITH DASIA AND OXIA AND YPOGEGRAMMENI
@@ -3576,8 +3564,6 @@ XCOMM Greek Extended
 <Multi_key> <Greek_iota> <grave> <parenleft> <Greek_ETA>	: "ᾛ"	U1F9B # GREEK CAPITAL LETTER ETA WITH DASIA AND VARIA AND PROSGEGRAMMENI
 <dead_iota> <dead_acute> <dead_psili> <Greek_ETA>	: "ᾜ"	U1F9C # GREEK CAPITAL LETTER ETA WITH PSILI AND OXIA AND PROSGEGRAMMENI
 <dead_iota> <dead_acute> <Multi_key> <parenright> <Greek_ETA>	: "ᾜ"	U1F9C # GREEK CAPITAL LETTER ETA WITH PSILI AND OXIA AND PROSGEGRAMMENI
-<dead_iota> <Multi_key> <acute> <dead_psili> <Greek_ETA>	: "ᾜ"	U1F9C # GREEK CAPITAL LETTER ETA WITH PSILI AND OXIA AND PROSGEGRAMMENI
-<dead_iota> <Multi_key> <acute> <parenright> <Greek_ETA>	: "ᾜ"	U1F9C # GREEK CAPITAL LETTER ETA WITH PSILI AND OXIA AND PROSGEGRAMMENI
 <dead_iota> <Multi_key> <apostrophe> <dead_psili> <Greek_ETA>	: "ᾜ"	U1F9C # GREEK CAPITAL LETTER ETA WITH PSILI AND OXIA AND PROSGEGRAMMENI
 <dead_iota> <Multi_key> <apostrophe> <parenright> <Greek_ETA>	: "ᾜ"	U1F9C # GREEK CAPITAL LETTER ETA WITH PSILI AND OXIA AND PROSGEGRAMMENI
 <Multi_key> <Greek_iota> <dead_acute> <dead_psili> <Greek_ETA>	: "ᾜ"	U1F9C # GREEK CAPITAL LETTER ETA WITH PSILI AND OXIA AND PROSGEGRAMMENI
@@ -3588,8 +3574,6 @@ XCOMM Greek Extended
 <Multi_key> <Greek_iota> <apostrophe> <parenright> <Greek_ETA>	: "ᾜ"	U1F9C # GREEK CAPITAL LETTER ETA WITH PSILI AND OXIA AND PROSGEGRAMMENI
 <dead_iota> <dead_acute> <dead_dasia> <Greek_ETA>	: "ᾝ"	U1F9D # GREEK CAPITAL LETTER ETA WITH DASIA AND OXIA AND PROSGEGRAMMENI
 <dead_iota> <dead_acute> <Multi_key> <parenleft> <Greek_ETA>	: "ᾝ"	U1F9D # GREEK CAPITAL LETTER ETA WITH DASIA AND OXIA AND PROSGEGRAMMENI
-<dead_iota> <Multi_key> <acute> <dead_dasia> <Greek_ETA>	: "ᾝ"	U1F9D # GREEK CAPITAL LETTER ETA WITH DASIA AND OXIA AND PROSGEGRAMMENI
-<dead_iota> <Multi_key> <acute> <parenleft> <Greek_ETA>	: "ᾝ"	U1F9D # GREEK CAPITAL LETTER ETA WITH DASIA AND OXIA AND PROSGEGRAMMENI
 <dead_iota> <Multi_key> <apostrophe> <dead_dasia> <Greek_ETA>	: "ᾝ"	U1F9D # GREEK CAPITAL LETTER ETA WITH DASIA AND OXIA AND PROSGEGRAMMENI
 <dead_iota> <Multi_key> <apostrophe> <parenleft> <Greek_ETA>	: "ᾝ"	U1F9D # GREEK CAPITAL LETTER ETA WITH DASIA AND OXIA AND PROSGEGRAMMENI
 <Multi_key> <Greek_iota> <dead_acute> <dead_dasia> <Greek_ETA>	: "ᾝ"	U1F9D # GREEK CAPITAL LETTER ETA WITH DASIA AND OXIA AND PROSGEGRAMMENI
@@ -3640,8 +3624,6 @@ XCOMM Greek Extended
 <Multi_key> <Greek_iota> <grave> <parenleft> <Greek_omega>	: "ᾣ"	U1FA3 # GREEK SMALL LETTER OMEGA WITH DASIA AND VARIA AND YPOGEGRAMMENI
 <dead_iota> <dead_acute> <dead_psili> <Greek_omega>	: "ᾤ"	U1FA4 # GREEK SMALL LETTER OMEGA WITH PSILI AND OXIA AND YPOGEGRAMMENI
 <dead_iota> <dead_acute> <Multi_key> <parenright> <Greek_omega>	: "ᾤ"	U1FA4 # GREEK SMALL LETTER OMEGA WITH PSILI AND OXIA AND YPOGEGRAMMENI
-<dead_iota> <Multi_key> <acute> <dead_psili> <Greek_omega>	: "ᾤ"	U1FA4 # GREEK SMALL LETTER OMEGA WITH PSILI AND OXIA AND YPOGEGRAMMENI
-<dead_iota> <Multi_key> <acute> <parenright> <Greek_omega>	: "ᾤ"	U1FA4 # GREEK SMALL LETTER OMEGA WITH PSILI AND OXIA AND YPOGEGRAMMENI
 <dead_iota> <Multi_key> <apostrophe> <dead_psili> <Greek_omega>	: "ᾤ"	U1FA4 # GREEK SMALL LETTER OMEGA WITH PSILI AND OXIA AND YPOGEGRAMMENI
 <dead_iota> <Multi_key> <apostrophe> <parenright> <Greek_omega>	: "ᾤ"	U1FA4 # GREEK SMALL LETTER OMEGA WITH PSILI AND OXIA AND YPOGEGRAMMENI
 <Multi_key> <Greek_iota> <dead_acute> <dead_psili> <Greek_omega>	: "ᾤ"	U1FA4 # GREEK SMALL LETTER OMEGA WITH PSILI AND OXIA AND YPOGEGRAMMENI
@@ -3652,8 +3634,6 @@ XCOMM Greek Extended
 <Multi_key> <Greek_iota> <apostrophe> <parenright> <Greek_omega>	: "ᾤ"	U1FA4 # GREEK SMALL LETTER OMEGA WITH PSILI AND OXIA AND YPOGEGRAMMENI
 <dead_iota> <dead_acute> <dead_dasia> <Greek_omega>	: "ᾥ"	U1FA5 # GREEK SMALL LETTER OMEGA WITH DASIA AND OXIA AND YPOGEGRAMMENI
 <dead_iota> <dead_acute> <Multi_key> <parenleft> <Greek_omega>	: "ᾥ"	U1FA5 # GREEK SMALL LETTER OMEGA WITH DASIA AND OXIA AND YPOGEGRAMMENI
-<dead_iota> <Multi_key> <acute> <dead_dasia> <Greek_omega>	: "ᾥ"	U1FA5 # GREEK SMALL LETTER OMEGA WITH DASIA AND OXIA AND YPOGEGRAMMENI
-<dead_iota> <Multi_key> <acute> <parenleft> <Greek_omega>	: "ᾥ"	U1FA5 # GREEK SMALL LETTER OMEGA WITH DASIA AND OXIA AND YPOGEGRAMMENI
 <dead_iota> <Multi_key> <apostrophe> <dead_dasia> <Greek_omega>	: "ᾥ"	U1FA5 # GREEK SMALL LETTER OMEGA WITH DASIA AND OXIA AND YPOGEGRAMMENI
 <dead_iota> <Multi_key> <apostrophe> <parenleft> <Greek_omega>	: "ᾥ"	U1FA5 # GREEK SMALL LETTER OMEGA WITH DASIA AND OXIA AND YPOGEGRAMMENI
 <Multi_key> <Greek_iota> <dead_acute> <dead_dasia> <Greek_omega>	: "ᾥ"	U1FA5 # GREEK SMALL LETTER OMEGA WITH DASIA AND OXIA AND YPOGEGRAMMENI
@@ -3704,8 +3684,6 @@ XCOMM Greek Extended
 <Multi_key> <Greek_iota> <grave> <parenleft> <Greek_OMEGA>	: "ᾫ"	U1FAB # GREEK CAPITAL LETTER OMEGA WITH DASIA AND VARIA AND PROSGEGRAMMENI
 <dead_iota> <dead_acute> <dead_psili> <Greek_OMEGA>	: "ᾬ"	U1FAC # GREEK CAPITAL LETTER OMEGA WITH PSILI AND OXIA AND PROSGEGRAMMENI
 <dead_iota> <dead_acute> <Multi_key> <parenright> <Greek_OMEGA>	: "ᾬ"	U1FAC # GREEK CAPITAL LETTER OMEGA WITH PSILI AND OXIA AND PROSGEGRAMMENI
-<dead_iota> <Multi_key> <acute> <dead_psili> <Greek_OMEGA>	: "ᾬ"	U1FAC # GREEK CAPITAL LETTER OMEGA WITH PSILI AND OXIA AND PROSGEGRAMMENI
-<dead_iota> <Multi_key> <acute> <parenright> <Greek_OMEGA>	: "ᾬ"	U1FAC # GREEK CAPITAL LETTER OMEGA WITH PSILI AND OXIA AND PROSGEGRAMMENI
 <dead_iota> <Multi_key> <apostrophe> <dead_psili> <Greek_OMEGA>	: "ᾬ"	U1FAC # GREEK CAPITAL LETTER OMEGA WITH PSILI AND OXIA AND PROSGEGRAMMENI
 <dead_iota> <Multi_key> <apostrophe> <parenright> <Greek_OMEGA>	: "ᾬ"	U1FAC # GREEK CAPITAL LETTER OMEGA WITH PSILI AND OXIA AND PROSGEGRAMMENI
 <Multi_key> <Greek_iota> <dead_acute> <dead_psili> <Greek_OMEGA>	: "ᾬ"	U1FAC # GREEK CAPITAL LETTER OMEGA WITH PSILI AND OXIA AND PROSGEGRAMMENI
@@ -3716,8 +3694,6 @@ XCOMM Greek Extended
 <Multi_key> <Greek_iota> <apostrophe> <parenright> <Greek_OMEGA>	: "ᾬ"	U1FAC # GREEK CAPITAL LETTER OMEGA WITH PSILI AND OXIA AND PROSGEGRAMMENI
 <dead_iota> <dead_acute> <dead_dasia> <Greek_OMEGA>	: "ᾭ"	U1FAD # GREEK CAPITAL LETTER OMEGA WITH DASIA AND OXIA AND PROSGEGRAMMENI
 <dead_iota> <dead_acute> <Multi_key> <parenleft> <Greek_OMEGA>	: "ᾭ"	U1FAD # GREEK CAPITAL LETTER OMEGA WITH DASIA AND OXIA AND PROSGEGRAMMENI
-<dead_iota> <Multi_key> <acute> <dead_dasia> <Greek_OMEGA>	: "ᾭ"	U1FAD # GREEK CAPITAL LETTER OMEGA WITH DASIA AND OXIA AND PROSGEGRAMMENI
-<dead_iota> <Multi_key> <acute> <parenleft> <Greek_OMEGA>	: "ᾭ"	U1FAD # GREEK CAPITAL LETTER OMEGA WITH DASIA AND OXIA AND PROSGEGRAMMENI
 <dead_iota> <Multi_key> <apostrophe> <dead_dasia> <Greek_OMEGA>	: "ᾭ"	U1FAD # GREEK CAPITAL LETTER OMEGA WITH DASIA AND OXIA AND PROSGEGRAMMENI
 <dead_iota> <Multi_key> <apostrophe> <parenleft> <Greek_OMEGA>	: "ᾭ"	U1FAD # GREEK CAPITAL LETTER OMEGA WITH DASIA AND OXIA AND PROSGEGRAMMENI
 <Multi_key> <Greek_iota> <dead_acute> <dead_dasia> <Greek_OMEGA>	: "ᾭ"	U1FAD # GREEK CAPITAL LETTER OMEGA WITH DASIA AND OXIA AND PROSGEGRAMMENI
@@ -3755,7 +3731,6 @@ XCOMM Greek Extended
 <dead_iota> <Greek_alpha>		: "ᾳ"	U1FB3 # GREEK SMALL LETTER ALPHA WITH YPOGEGRAMMENI
 <Multi_key> <Greek_iota> <Greek_alpha>	: "ᾳ"	U1FB3 # GREEK SMALL LETTER ALPHA WITH YPOGEGRAMMENI
 <dead_iota> <dead_acute> <Greek_alpha>	: "ᾴ"	U1FB4 # GREEK SMALL LETTER ALPHA WITH OXIA AND YPOGEGRAMMENI
-<dead_iota> <Multi_key> <acute> <Greek_alpha>	: "ᾴ"	U1FB4 # GREEK SMALL LETTER ALPHA WITH OXIA AND YPOGEGRAMMENI
 <dead_iota> <Multi_key> <apostrophe> <Greek_alpha>	: "ᾴ"	U1FB4 # GREEK SMALL LETTER ALPHA WITH OXIA AND YPOGEGRAMMENI
 <Multi_key> <Greek_iota> <dead_acute> <Greek_alpha>	: "ᾴ"	U1FB4 # GREEK SMALL LETTER ALPHA WITH OXIA AND YPOGEGRAMMENI
 <Multi_key> <Greek_iota> <acute> <Greek_alpha>	: "ᾴ"	U1FB4 # GREEK SMALL LETTER ALPHA WITH OXIA AND YPOGEGRAMMENI
@@ -3785,7 +3760,6 @@ XCOMM Greek Extended
 <dead_iota> <Greek_eta>			: "ῃ"	U1FC3 # GREEK SMALL LETTER ETA WITH YPOGEGRAMMENI
 <Multi_key> <Greek_iota> <Greek_eta>	: "ῃ"	U1FC3 # GREEK SMALL LETTER ETA WITH YPOGEGRAMMENI
 <dead_iota> <dead_acute> <Greek_eta>	: "ῄ"	U1FC4 # GREEK SMALL LETTER ETA WITH OXIA AND YPOGEGRAMMENI
-<dead_iota> <Multi_key> <acute> <Greek_eta>	: "ῄ"	U1FC4 # GREEK SMALL LETTER ETA WITH OXIA AND YPOGEGRAMMENI
 <dead_iota> <Multi_key> <apostrophe> <Greek_eta>	: "ῄ"	U1FC4 # GREEK SMALL LETTER ETA WITH OXIA AND YPOGEGRAMMENI
 <Multi_key> <Greek_iota> <dead_acute> <Greek_eta>	: "ῄ"	U1FC4 # GREEK SMALL LETTER ETA WITH OXIA AND YPOGEGRAMMENI
 <Multi_key> <Greek_iota> <acute> <Greek_eta>	: "ῄ"	U1FC4 # GREEK SMALL LETTER ETA WITH OXIA AND YPOGEGRAMMENI
@@ -3865,7 +3839,6 @@ XCOMM Greek Extended
 <dead_iota> <Greek_omega>		: "ῳ"	U1FF3 # GREEK SMALL LETTER OMEGA WITH YPOGEGRAMMENI
 <Multi_key> <Greek_iota> <Greek_omega>	: "ῳ"	U1FF3 # GREEK SMALL LETTER OMEGA WITH YPOGEGRAMMENI
 <dead_iota> <dead_acute> <Greek_omega>	: "ῴ"	U1FF4 # GREEK SMALL LETTER OMEGA WITH OXIA AND YPOGEGRAMMENI
-<dead_iota> <Multi_key> <acute> <Greek_omega>	: "ῴ"	U1FF4 # GREEK SMALL LETTER OMEGA WITH OXIA AND YPOGEGRAMMENI
 <dead_iota> <Multi_key> <apostrophe> <Greek_omega>	: "ῴ"	U1FF4 # GREEK SMALL LETTER OMEGA WITH OXIA AND YPOGEGRAMMENI
 <Multi_key> <Greek_iota> <dead_acute> <Greek_omega>	: "ῴ"	U1FF4 # GREEK SMALL LETTER OMEGA WITH OXIA AND YPOGEGRAMMENI
 <Multi_key> <Greek_iota> <acute> <Greek_omega>	: "ῴ"	U1FF4 # GREEK SMALL LETTER OMEGA WITH OXIA AND YPOGEGRAMMENI
