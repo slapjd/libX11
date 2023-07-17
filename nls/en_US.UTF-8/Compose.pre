@@ -187,13 +187,13 @@ XCOMM "₪" U20aa NEW SHEQEL SIGN
 <Multi_key> <equal> <Cyrillic_ZE>	: "₽"	U20bd # ROUBLE SIGN
 <Multi_key> <Cyrillic_ze> <equal>	: "₽"	U20bd # ROUBLE SIGN
 <Multi_key> <equal> <Cyrillic_ze>	: "₽"	U20bd # ROUBLE SIGN
-XCOMM "₭" U20ad KIP SIGN
-XCOMM "₮" U20ae TUGRIK SIGN
-XCOMM "₯" U20af DRACHMA SIGN
-XCOMM "₰" U20b0 GERMAN PENNY SIGN
+<Multi_key> <K> <minus>			: "₭"	U20ad # KIP SIGN
+<Multi_key> <minus> <K>			: "₭"	U20ad # KIP SIGN
+<Multi_key> <T> <equal>			: "₮"	U20ae # TUGRIK SIGN
+<Multi_key> <equal> <T>			: "₮"	U20ae # TUGRIK SIGN
 XCOMM "₱" U20b1 PESO SIGN
-XCOMM "₲" U20b2 GUARANI SIGN
-XCOMM "₳" U20b3 AUSTRAL SIGN
+<Multi_key> <G> <bar>			: "₲"	U20b2 # GUARANI SIGN
+<Multi_key> <bar> <G>			: "₲"	U20b2 # GUARANI SIGN
 XCOMM "₴" U20b4 HRYVNIA SIGN
 <Multi_key> <C> <bar>			: "₵"	U20b5 # CEDI SIGN
 <Multi_key> <bar> <C>			: "₵"	U20b5 # CEDI SIGN
@@ -202,6 +202,8 @@ XCOMM "₴" U20b4 HRYVNIA SIGN
 <Multi_key> <r> <equal>			: "₹"	U20b9 # INDIAN RUPEE SIGN
 <Multi_key> <equal> <r>			: "₹"	U20b9 # INDIAN RUPEE SIGN
 
+<Multi_key> <S> <bar>			: "$"	dollar # DOLLAR SIGN
+<Multi_key> <bar> <S>			: "$"	dollar # DOLLAR SIGN
 <Multi_key> <c> <bar>			: "¢"	cent # CENT SIGN
 <Multi_key> <bar> <c>			: "¢"	cent # CENT SIGN
 <Multi_key> <c> <slash>			: "¢"	cent # CENT SIGN
