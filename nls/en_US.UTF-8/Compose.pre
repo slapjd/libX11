@@ -112,6 +112,8 @@ XCOMM Special punctuation
 <Multi_key> <exclam> <question>		: "‽"	U203D # INTERROBANG
 <Multi_key> <question> <exclam>		: "⸘"	U2E18 # INVERTED INTERROBANG
 <Multi_key> <minus> <minus> <space>	: "­"	U00ad # SOFT HYPHEN
+<Multi_key> <bar> <minus>		: "†"	U2020 # DAGGER
+<Multi_key> <bar> <equal>		: "‡"	U2021 # DOUBLE DAGGER
 <Multi_key> <percent> <o>		: "‰"	U2030 # PER MILLE SIGN
 
 XCOMM Some ligatures
