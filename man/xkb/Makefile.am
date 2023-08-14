@@ -181,7 +181,6 @@ libman_PRE = \
 	XkbSetAccessXTimeout.man                \
 	XkbSetAutoRepeatRate.man                \
 	XkbSetAutoResetControls.man             \
-	XkbSetBounceKeysDelay.man               \
 	XkbSetCompatMap.man                     \
 	XkbSetControls.man                      \
 	XkbSetDebuggingFlags.man                \
