@@ -113,7 +113,6 @@ libman_PRE = \
 	XkbGetNamedIndicator.man                \
 	XkbGetNames.man                         \
 	XkbGetState.man                         \
-	XkbGetStickyKeysOptions.man             \
 	XkbGetUpdatedMap.man                    \
 	XkbGetVirtualMods.man                   \
 	XkbGetXlibControls.man                  \
