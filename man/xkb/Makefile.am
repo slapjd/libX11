@@ -45,7 +45,6 @@ libman_PRE = \
 	XkbChangeControls.man                   \
 	XkbChangeDeviceInfo.man                 \
 	XkbChangeEnabledControls.man            \
-	XkbChangeIndicators.man                 \
 	XkbChangeMap.man                        \
 	XkbChangeNames.man                      \
 	XkbChangeTypesOfKey.man                 \
@@ -94,7 +93,6 @@ libman_PRE = \
 	XkbGetDeviceInfoChanges.man             \
 	XkbGetDeviceLedInfo.man                 \
 	XkbGetGeometry.man                      \
-	XkbGetIndicatorChanges.man              \
 	XkbGetIndicatorMap.man                  \
 	XkbGetIndicatorState.man                \
 	XkbGetKeyActions.man                    \
@@ -147,7 +145,6 @@ libman_PRE = \
 	XkbModActionVMods.man                   \
 	XkbNoteControlsChanges.man              \
 	XkbNoteDeviceChanges.man                \
-	XkbNoteIndicatorChanges.man             \
 	XkbNoteNameChanges.man                  \
 	XkbOpenDisplay.man                      \
 	XkbOutOfRangeGroupInfo.man              \
