@@ -122,13 +122,13 @@ libman_PRE = \
 	XkbKeyGroupWidth.man                    \
 	XkbKeyGroupsWidth.man                   \
 	XkbKeyHasActions.man                    \
+	XkbKeyKeyType.man                       \
+	XkbKeyKeyTypeIndex.man                  \
 	XkbKeyNumActions.man                    \
 	XkbKeyNumGroups.man                     \
 	XkbKeyNumSyms.man                       \
 	XkbKeySymEntry.man                      \
 	XkbKeySymsPtr.man                       \
-	XkbKeyType.man                          \
-	XkbKeyTypeIndex.man                     \
 	XkbKeyTypesForCoreSymbols.man           \
 	XkbKeycodeToKeysym.man                  \
 	XkbKeysymToModifiers.man                \
