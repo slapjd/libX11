@@ -20,7 +20,6 @@ libman_PRE = \
 	XkbAllocCompatMap.man                   \
 	XkbAllocControls.man                    \
 	XkbAllocDeviceInfo.man                  \
-	XkbAllocDeviceLedInfo.man               \
 	XkbAllocGeomColors.man                  \
 	XkbAllocGeomDoodads.man                 \
 	XkbAllocGeomKeyAliases.man              \
