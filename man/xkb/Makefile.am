@@ -112,7 +112,6 @@ libman_PRE = \
 	XkbGetNamedGeometry.man                 \
 	XkbGetNamedIndicator.man                \
 	XkbGetNames.man                         \
-	XkbGetSlowKeysDelay.man                 \
 	XkbGetState.man                         \
 	XkbGetStickyKeysOptions.man             \
 	XkbGetUpdatedMap.man                    \
