@@ -105,7 +105,6 @@ libman_PRE = \
 	XkbGetKeyboard.man                      \
 	XkbGetKeyboardByName.man                \
 	XkbGetMap.man                           \
-	XkbGetNameChanges.man                   \
 	XkbGetNamedDeviceIndicator.man          \
 	XkbGetNamedGeometry.man                 \
 	XkbGetNamedIndicator.man                \
