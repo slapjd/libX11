@@ -83,7 +83,6 @@ libman_PRE = \
 	XkbFreeKeyboard.man                     \
 	XkbFreeNames.man                        \
 	XkbFreeServerMap.man                    \
-	XkbGetAccessXTimeout.man                \
 	XkbGetAutoRepeatRate.man                \
 	XkbGetAutoResetControls.man             \
 	XkbGetCompatMap.man                     \
@@ -176,7 +175,6 @@ libman_PRE = \
 	XkbSASetScreen.man                      \
 	XkbSelectEventDetails.man               \
 	XkbSelectEvents.man                     \
-	XkbSetAccessXTimeout.man                \
 	XkbSetAutoRepeatRate.man                \
 	XkbSetAutoResetControls.man             \
 	XkbSetCompatMap.man                     \
