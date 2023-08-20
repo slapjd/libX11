@@ -160,7 +160,7 @@ libman_PRE = \
 	XkbResizeKeyActions.man                 \
 	XkbResizeKeySyms.man                    \
 	XkbResizeKeyType.man                    \
-	XkbSAActionSetCtrls.man                 \
+	XkbActionSetCtrls.man                   \
 	XkbSAGroup.man                          \
 	XkbSAPtrDfltValue.man                   \
 	XkbSARedirectSetVMods.man               \
