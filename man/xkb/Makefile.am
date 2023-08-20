@@ -87,7 +87,6 @@ libman_PRE = \
 	XkbGetAccessXTimeout.man                \
 	XkbGetAutoRepeatRate.man                \
 	XkbGetAutoResetControls.man             \
-	XkbGetBounceKeysDelay.man               \
 	XkbGetCompatMap.man                     \
 	XkbGetControls.man                      \
 	XkbGetControlsChanges.man               \
