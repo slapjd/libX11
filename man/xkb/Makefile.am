@@ -126,7 +126,6 @@ libman_PRE = \
 	XkbKeyNumGroups.man                     \
 	XkbKeyNumSyms.man                       \
 	XkbKeySymEntry.man                      \
-	XkbKeySymsOffset.man                    \
 	XkbKeySymsPtr.man                       \
 	XkbKeyType.man                          \
 	XkbKeyTypeIndex.man                     \
