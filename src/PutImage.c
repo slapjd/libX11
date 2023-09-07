@@ -30,6 +30,7 @@ in this Software without prior written authorization from The Open Group.
 #include "Xlibint.h"
 #include "Xutil.h"
 #include <stdio.h>
+#include <limits.h>
 #include "Cr.h"
 #include "ImUtil.h"
 #include "reallocarray.h"
@@ -962,6 +963,10 @@ XPutImage (
 	height = image->height - req_yoffset;
     if ((width <= 0) || (height <= 0))
 	return 0;
+    if (width > USHRT_MAX)
+        width = USHRT_MAX;
+    if (height > USHRT_MAX)
+        height = USHRT_MAX;
 
     if ((image->bits_per_pixel == 1) || (image->format != ZPixmap)) {
 	dest_bits_per_pixel = 1;
