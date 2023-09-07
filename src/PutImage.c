@@ -914,8 +914,9 @@ PutSubImage (
 		    req_width, req_height - SubImageHeight,
 		    dest_bits_per_pixel, dest_scanline_pad);
     } else {
-	int SubImageWidth = (((Available << 3) / dest_scanline_pad)
-				* dest_scanline_pad) - left_pad;
+	int SubImageWidth = ((((Available << 3) / dest_scanline_pad)
+                              * dest_scanline_pad) - left_pad)
+                              / dest_bits_per_pixel;
 
 	PutSubImage(dpy, d, gc, image, req_xoffset, req_yoffset, x, y,
 		    (unsigned int) SubImageWidth, 1,
