@@ -823,6 +823,78 @@ _XTranslateKey(	register Display *dpy,
     return 1;
 }
 
+struct codepair {
+    uint32_t keysym;
+    char ucs;
+};
+
+/* binary search with range check */
+static char
+bin_search(const struct codepair *table, size_t length, KeySym keysym)
+{
+    size_t first = 0;
+    size_t last = length;
+
+    if (keysym < table[0].keysym  || keysym > table[length].keysym)
+        return 0;
+
+    /* binary search in table */
+    while (last >= first) {
+        size_t mid = (first + last) / 2;
+        if (table[mid].keysym < keysym)
+            first = mid + 1;
+        else if (table[mid].keysym > keysym)
+            last = mid - 1;
+        else /* found it */
+            return table[mid].ucs;
+    }
+
+    /* no matching Unicode value found in table */
+    return 0;
+}
+
+static const struct codepair keysymcolemaktab[] = {
+    //semicolon key(s) come before the alphabet and this table needs to be sorted
+    { 0x003a, 0x004f }, /* : - O (colon should be shift + semicolon) */
+    { 0x003b, 0x006f }, /* ; - o */
+
+    { 0x0044, 0x0053 }, /* D - S */
+    { 0x0045, 0x0046 }, /* E - F */
+    { 0x0046, 0x0054 }, /* F - T */
+    { 0x0047, 0x0044 }, /* G - D */
+    { 0x0049, 0x0055 }, /* I - U */
+    { 0x004a, 0x004e }, /* J - N */
+    { 0x004b, 0x0045 }, /* K - E */
+    { 0x004c, 0x0049 }, /* L - I */
+    { 0x004e, 0x004b }, /* N - K */
+    { 0x004f, 0x0059 }, /* O - Y */
+    { 0x0050, 0x003a }, /* P - : (colon should be shift + semicolon) */
+    { 0x0052, 0x0050 }, /* R - P */
+    { 0x0053, 0x0052 }, /* S - R */
+    { 0x0054, 0x0047 }, /* T - G */
+    { 0x0055, 0x004c }, /* U - L */
+    { 0x0059, 0x004a }, /* Y - J */
+
+    { 0x0064, 0x0073 }, /* d - s */
+    { 0x0065, 0x0066 }, /* e - f */
+    { 0x0066, 0x0074 }, /* f - t */
+    { 0x0067, 0x0064 }, /* g - d */
+    { 0x0069, 0x0075 }, /* i - u */
+    { 0x006a, 0x006e }, /* j - n */
+    { 0x006b, 0x0065 }, /* k - e */
+    { 0x006c, 0x0069 }, /* l - i */
+    { 0x006e, 0x006b }, /* n - k */
+    { 0x006f, 0x0079 }, /* o - y */
+    { 0x0070, 0x003b }, /* p - ; */
+    { 0x0072, 0x0070 }, /* r - p */
+    { 0x0073, 0x0072 }, /* s - r */
+    { 0x0074, 0x0067 }, /* t - g */
+    { 0x0075, 0x006c }, /* u - l */
+    { 0x0079, 0x006a }, /* y - j */
+};
+
+#define ARRAY_SIZE(arr) ((sizeof(arr) / sizeof(*(arr))))
+
 int
 _XTranslateKeySym(
     Display *dpy,
@@ -838,6 +910,18 @@ _XTranslateKeySym(
 
     if (!symbol)
 	return 0;
+    /* Dirty colemak conversion hijack */
+    char colemakCodePoint = bin_search(keysymcolemaktab, ARRAY_SIZE(keysymcolemaktab) - 1, symbol);
+    if (colemakCodePoint) {
+        length = 2;
+        if (length > nbytes) length = nbytes;
+        if (length > 0) buffer[0] = colemakCodePoint;
+        if (length > 1) {
+            buffer[1] = '\0';
+            length = 2;
+        }
+        return length;
+    }
     /* see if symbol rebound, if so, return that string. */
     for (p = dpy->key_bindings; p; p = p->next) {
 	if (((modifiers & AllMods) == p->state) && (symbol == p->key)) {
